@@ -1,9 +1,12 @@
-import Image from "next/image";
+"use client";
+import React from "react";
+import HeroSection from "./component/HeroSection";
+
 
 export default function Home() {
   return (
     <>
-    Hello this is my website
+      <HeroSection/>
     </>
   );
 }

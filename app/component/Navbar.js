@@ -20,9 +20,9 @@ const Navbar = () => {
           <Hamburger className="md:hidden" toggle={setIsOpen} toggled={isOpen}/>
         </div>
         <ul className="md:flex md:gap-10 hidden md:items-center lg:text-2xl text-xl">
-          <li>Home</li>
-          <li>About</li>
-          <li>Catalouge</li>
+          <li><Link href="/">Home</Link></li>
+          <li><Link href="/about">About</Link></li>
+          <li><Link href="/catalogue">Catalouge</Link></li>
         </ul>
       </div>
       <AnimatePresence>
@@ -36,7 +36,7 @@ const Navbar = () => {
         bounce:0.25,
         mass:0.5
       }}
-      className='absolute bg-primary top-[5rem] right-0 h-full w-1/2 text-center'>
+      className='absolute backdrop-blur-[30px] bg-orange-glass top-[5rem] right-0 min-h-full max-h-[9999px] w-1/2 text-center'>
           <ul>
             <li className='mx-9 my-7 text-xl'><Link href="/">Home</Link></li>
             <li className='mx-9 my-7 text-xl'><Link href="/about">About</Link></li>
