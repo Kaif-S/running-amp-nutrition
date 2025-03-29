@@ -5,7 +5,7 @@ import { AnimatePresence , motion} from "motion/react";
 export default function Productinfo() {
   return (
     <AnimatePresence>
-    <div className='info-section bg-secondary text-white lg:px-28 lg:text-left text-center'>
+    <div className='info-section bg-secondary text-white lg:px-28 lg:text-left text-center pb-8'>
       <h2 className='font-bold xl:text-5xl lg:text-4xl md:text-3xl text-2xl'>How our products are made</h2>
       <div className='flex justify-between flex-col md:flex-row'>
         <motion.div 

@@ -22,7 +22,7 @@ const Navbar = () => {
         <ul className="md:flex md:gap-10 hidden md:items-center lg:text-2xl text-xl">
           <li><Link href="/">Home</Link></li>
           <li><Link href="/about">About</Link></li>
-          <li><Link href="/catalogue">Catalouge</Link></li>
+          <li><Link href="/#">Catalouge</Link></li>
         </ul>
       </div>
       <AnimatePresence>
@@ -40,7 +40,7 @@ const Navbar = () => {
           <ul>
             <li className='mx-9 my-7 text-xl'><Link href="/">Home</Link></li>
             <li className='mx-9 my-7 text-xl'><Link href="/about">About</Link></li>
-            <li className='mx-9 my-7 text-xl'><Link href="/catalogue">Catalouge</Link></li>
+            <li className='mx-9 my-7 text-xl'><Link href="/#">Catalouge</Link></li>
           </ul>
         </motion.div>
         }

@@ -24,7 +24,7 @@ const HeroSection = () => {
           className=" font-bold italic xl:text-5xl lg:text-4xl md:text-3xl text-2xl max-w-[45rem] ">"Vibrant, Refreshing, Uniquely African!" 🍉🥤</motion.h2>
           <motion.p 
           
-          initial={{opacity:0,translateX:-30}}
+          initial={{opacity:0,translateX:100}}
           animate={{opacity:1,translateX:0}}
 
           transition={{
