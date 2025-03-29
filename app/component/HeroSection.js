@@ -68,7 +68,7 @@ const HeroSection = () => {
         }}
         
         className="figure">
-          <Image src="/hero-section.png" height={560} width={560} alt="image of juice" />
+          <Image src="./hero-section.png" height={560} width={560} alt="image of juice" />
         </motion.div>
       </div>
       </AnimatePresence>

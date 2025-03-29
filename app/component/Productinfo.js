@@ -20,7 +20,7 @@ export default function Productinfo() {
         }}
 
         className='flex items-center justify-center md:justify-start'>
-        <Image src="/fruits_falling.png" width={558} height={466} alt='fruits falling png'/>
+        <Image src="./fruits_falling.png" width={558} height={466} alt='fruits falling png'/>
         </motion.div>
         <motion.div 
         

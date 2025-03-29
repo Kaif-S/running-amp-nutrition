@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className={`${kufam.className} bg-primary text-white xl:px-28 py-2 flex justify-between`}>
       <div className='flex items-center'>
-        <Image src="/logo_dring.png" height={74} width={65} alt='logo image' />
+        <Image src="./logo_dring.png" height={74} width={65} alt='logo image' />
         <h2 className={`${karla.className} font-bold lg:text-[2rem] md:text-xl text-lg`}>RunningAmpNutrition</h2>
       </div>
       <div className='flex justify-center'>
